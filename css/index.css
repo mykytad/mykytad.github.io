@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	background: #efefef;
+	line-height: normal;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 20px;
+}
+.dinosaur{
+	text-align: justify;
+	width: 1100px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.meat{
+	border:3px dashed green;
+	background: gray;
+	text-align: center;
+}
+.types_meat{
+	width: 550px;
+	margin: 0 auto;
+    text-align: center;
+	border:3px solid yellow;
+	background: yellowgreen;
+}
+.plants{
+	border:3px dashed green;
+	text-align: center;
+}
+.types_plants{
+	border:3px solid yellowgreen;
+	margin: 0 auto;
+    text-align: center;
+	display: flex;
+    justify-content: space-between;
+    background: green;
+}
+.triceratops{
+	width: 500px;
+}
+.diplodocus{
+	width: 500px;
+}
